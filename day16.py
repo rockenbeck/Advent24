@@ -54,7 +54,7 @@ def day16a(s):
 
     while True:
         if len(e) == 0:
-            assert(False) # failed to find any past
+            assert(False) # failed to find any path
 
         # way too expensive, even with Timsort?
         # look up Python priority queue again, or write my own
